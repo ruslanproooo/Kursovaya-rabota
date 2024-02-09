@@ -16,3 +16,4 @@
 1.3. Заключение: копируется введение в прошедшем времени<BR>
 Как это должно быть оформлено (ГОСТ)<BR>
 Ссылка на папку в google drive - https://drive.google.com/drive/folders/1dbywDJXPcO89NVoTjLSlCKFB3prgt5jA?usp=drive_link
+Use Case диаграмма - https://online.visual-paradigm.com/app/diagrams/#diagram:proj=0&type=UseCaseDiagram&width=11&height=8.5&unit=inch
