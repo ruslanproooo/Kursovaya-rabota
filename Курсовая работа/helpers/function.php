@@ -8,6 +8,12 @@ if (!$BD) {
 function loge($login, $password)
 {
     global $BD;
-    $result = mysqli_query($BD, "SELECT * FROM `users` where Login = '$login'and Password = '$password';");
+    $result = mysqli_query($BD, "SELECT * FROM `users` where Login = '$login' and Password = '$password';");
     return mysqli_num_rows($result);
+}
+function getOrders()
+{
+    global $BD;
+    $result = mysqli_query($BD, "SELECT * FROM `users`;");
+    return mysqli_fetch_all($result, MYSQLI_ASSOC);
 }
